@@ -1,0 +1,242 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/playfair-display-v37-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/playfair-display-v37-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v37-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pacifico-v22-latin-regular.woff2') format('woff2');
+}
+
+:root {
+    --color-fon: #E3EED4;
+    --color-text: #333333;
+    --color-text-addres: #3e693b;
+    --color-I: #FF9800;
+    --color-II: #6c91728f;
+    --color-III: #0F2A1D;
+    --color-img-barder: #000000;
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-fon);
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Paragraph */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 300px auto ;
+    font-family: 'Playfair Display';
+
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 42px;
+    
+    font-family: 'Playfair Display';
+    padding-bottom: 7px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Playfair Display';
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 24;
+    font-family: 'Playfair Display';
+}
+
+/* conteiner */
+
+.conteiner {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.menu-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-III);
+    background-color: var(--color-II);
+    border: var(--color-II);
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+/* Dishes */
+
+.Lots-of-dishes-section {
+    background-color: var(--color-II);
+}
+
+.Dishes { 
+    background-color: var(--color-II);
+    border-radius: 8px;
+}
+
+.Dishes-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-dishes {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    border: 5px solid var(--color-img-barder);
+    border-radius: 10px 40px;
+    margin-left: 25px;
+}
+
+/* Dishes-text */
+
+.Dishes-text {
+    display: flex;
+    width: 500px;
+    line-height: 2.5;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--color-text-addres);
+}
+
+/* addres */
+
+.Lots-of-dishes {
+    padding: 0 10px;
+}
+
+address {
+    background-color: var(--color-text-addres);
+    color: var(--color-II);
+} 
+
+address ul li a {
+    color: var(--color-fon);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Pacifico';
+}
+
+.address-mailto-politik {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-mailto-politik a {
+    color: var(--color-fon);
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Pacifico';
+}
+
+.address-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address-YouTube-TikTok {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+/* Youtube-tiktok */
+
+.youtube {
+    color: var(--color-fon);
+    font-family: 'Pacifico';
+    font-size: 24px;
+}
+
+.tiktok {
+    color: var(--color-fon);
+    font-family: 'Pacifico';
+    font-size: 24px;
+}
